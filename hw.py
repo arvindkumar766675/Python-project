@@ -135,3 +135,10 @@ print("First mark :",marks[0])
 
 marks[-2]=82
 print("Updated marks :",marks)
+
+lst=["A","B","C","D"]
+#slicing
+lst[1:3]="P","Q",
+print(lst)       #['A', 'P', 'Q', 'D']
+
+
